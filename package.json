@@ -1,0 +1,27 @@
+{
+  "name": "auguste",
+  "version": "0.0.1",
+  "description": "strategy board game",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.4.8",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigstewie/Acrobatt.git"
+  },
+  "keywords": [
+    "auguste"
+  ],
+  "author": "dogeteam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bigstewie/Acrobatt/issues"
+  },
+  "homepage": "https://github.com/bigstewie/Acrobatt"
+}

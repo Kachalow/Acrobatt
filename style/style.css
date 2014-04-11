@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(49,79,79) !important;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: arial;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255,222,173);
+}
+
+.header a {
+    position: relative;
+    top: 35px;
+    padding-left: 20px; 
+    display: inline;   
+}
+
+.header h1 {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.header a img:hover {
+    border: 1px solid;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; 
+}
+
+.center {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.chat {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+.lobby {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(255,222,173, 0.75);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.connection {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.connection input {
+    color: #000000;
+    -webkit-border-radius: 73px;
+    border-radius: 73px;
+}
+
+.conversation {
+    overflow: auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+    color: #000000;
+}
+.chat-float {
+    float: left;
+    -webkit-border-radius: 73px;
+    border-radius: 73px;
+}
+.message-input {
+    width: 100%;
+}
+.message-send {
+    background-color: #6441A5;
+    color: white;
+    width: 85%;
+    float: right;
+}
+
+.users {
+    width: 150px;
+    position: absolute;
+    background-color: white;
+}
+
+.mm-menu.mm-right{
+    left: auto;
+    right: 0;
+}
+
+.modal_connection {
+    display: none;
+}
+
+.ui-widget-overlay {
+    display: none;
+}
+
+div#mm-blocker {
+    display: none !important;
+}
+
+#confirmation {
+    margin: 0 !important;
+}
